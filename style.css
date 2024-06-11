@@ -25,7 +25,7 @@
 .dropbtn {
     background-color: transparent;
     color: white;
-    padding: 16px;
+    /* padding: 16px; */
     font-size: 16px;
     border: none;
   }
@@ -40,13 +40,13 @@
     display: none;
     position: absolute;
     background-color: transparent;
-    min-width: 160px;
+    min-width: 150px;
     z-index: 1;
   }
   
   .dropdown-content a {
     color: rgb(255, 255, 255);
-    padding: 12px 16px;
+    padding: 10px;
     text-decoration: none;
     display: block;
     text-transform: uppercase;
@@ -72,6 +72,7 @@
     list-style: none;
     display: inline-block;
    position: relative;
+   margin: 0 10px;
 }
 
 .navbar ul li a{
@@ -87,7 +88,7 @@
     background: #009688;
     position: absolute;
     left: 0;
-    top: 0;
+    bottom: 0;
     transition: 0.5s;
 }
 
